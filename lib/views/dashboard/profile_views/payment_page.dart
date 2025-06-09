@@ -111,7 +111,10 @@ class _PaymentPageState extends State<PaymentPage> {
                             borderRadius: BorderRadius.circular(25),
                           ),
                         ),
-                        child: const Text("Add Card"),
+                        child: const Text(
+                          "Add Card",
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ),
                     ],
                   ),
@@ -189,7 +192,7 @@ class _PaymentPageState extends State<PaymentPage> {
                 }
               },
               backgroundColor: AppColors.primary,
-              child: const Icon(Icons.add),
+              child: const Icon(Icons.add, color: Colors.white),
             )
           : null,
     );

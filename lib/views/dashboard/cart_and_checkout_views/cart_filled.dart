@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:BabyShop/utils/cart_provider.dart';
 import 'package:provider/provider.dart';
 import '../../../utils/cart_functionalities.dart';
+import '../../../utils/app_colors.dart';
 import 'checkout.dart';
 
 class CartFilled extends StatelessWidget {
@@ -267,7 +268,7 @@ class CartFilled extends StatelessWidget {
       width: 24,
       height: 24,
       decoration: BoxDecoration(
-        color: const Color(0xFF8E6CEE),
+        color: AppColors.primary,
         borderRadius: BorderRadius.circular(100),
       ),
       child: Icon(icon, color: Colors.white, size: 16),
@@ -345,7 +346,7 @@ class CartFilled extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: const Color(0xFF8E6CEE),
+              color: AppColors.primary,
               borderRadius: BorderRadius.circular(100),
             ),
             child: const Icon(Icons.local_offer, color: Colors.white, size: 16),
@@ -392,7 +393,7 @@ class CartFilled extends StatelessWidget {
             width: double.infinity,
             padding: const EdgeInsets.symmetric(vertical: 16),
             decoration: BoxDecoration(
-              color: const Color(0xFF8E6CEE),
+              color: AppColors.primary,
               borderRadius: BorderRadius.circular(100),
             ),
             child: const Text(

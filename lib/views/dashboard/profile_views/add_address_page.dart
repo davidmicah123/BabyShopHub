@@ -113,7 +113,10 @@ class _AddAddressPageState extends State<AddAddressPage> {
                 backgroundColor: AppColors.primary,
                 minimumSize: const Size(double.infinity, 50),
               ),
-              child: Text(widget.existingAddress != null ? "Update" : "Save"),
+              child: Text(
+                widget.existingAddress != null ? "Update" : "Save",
+                style: const TextStyle(color: Colors.white),
+              ),
             ),
             const SizedBox(height: 20),
           ],

@@ -567,7 +567,11 @@ class _AdminDashboardState extends State<AdminDashboard>
               break;
           }
         },
-        child: Icon(Icons.add),
+        child: const Icon(
+          Icons.add,
+          color: Colors.white,
+          size: 24,
+        ),
       ),
     );
   }

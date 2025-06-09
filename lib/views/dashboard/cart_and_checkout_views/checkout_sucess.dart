@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../dashboard_screen.dart';
+import '../../../utils/app_colors.dart';
 
 class OrderSuccessful extends StatelessWidget {
   final Map<String, dynamic> orderData;
@@ -195,7 +196,7 @@ class OrderSuccessful extends StatelessWidget {
         );
       },
       style: ElevatedButton.styleFrom(
-        backgroundColor: const Color(0xFF8E6CEE),
+        backgroundColor: AppColors.primary,
         padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30),

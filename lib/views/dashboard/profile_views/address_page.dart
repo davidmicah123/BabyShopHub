@@ -91,7 +91,10 @@ class _AddressPageState extends State<AddressPage> {
                         style: ElevatedButton.styleFrom(
                           backgroundColor: AppColors.primary,
                         ),
-                        child: const Text('Add New Address'),
+                        child: const Text(
+                          'Add New Address',
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ),
                     ],
                   ),
@@ -128,7 +131,7 @@ class _AddressPageState extends State<AddressPage> {
                               },
                               child: const Text(
                                 "Edit",
-                                style: TextStyle(color: AppColors.primary),
+                                style: TextStyle(color: Colors.white),
                               ),
                             ),
                             IconButton(
@@ -177,7 +180,7 @@ class _AddressPageState extends State<AddressPage> {
           }
         },
         backgroundColor: AppColors.primary,
-        child: const Icon(Icons.add),
+        child: const Icon(Icons.add, color: Colors.white),
       ),
     );
   }
